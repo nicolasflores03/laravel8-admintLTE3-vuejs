@@ -29,6 +29,10 @@ class CreateUsersTable extends Migration
             $table->string('employee_id')->nullable();
             $table->datetime('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
+            $table->index('user_type_id')->nullable();
+            $table->index('company_id')->nullable();
+            $table->index('area_base_id')->nullable();
+            $table->index('department_id')->nullable();
         });
     }
 
