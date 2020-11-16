@@ -1,7 +1,15 @@
 
-## Demo Build Setup
+## Build Setup
+<p>Change <b>.env.example</b> to <b>.env</b> file</p>
+<p>Configure <b>.env</b> file. Such as database credentials etc.</p>
 
 ``` bash
+# Composer install
+composer install
+
+# Migrate Database
+php artisan migrate
+
 # install dependencies
 npm install
 
@@ -11,8 +19,6 @@ npm run dev
 # build for production 
 npm run production
 
-# Composer install
-composer install
 
 # Run project and access on web browser.
 # url ex. http://127.0.0.1:8000
