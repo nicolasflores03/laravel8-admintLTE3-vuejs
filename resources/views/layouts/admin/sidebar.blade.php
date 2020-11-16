@@ -212,7 +212,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ url('/config/companies') }}" class="nav-link">
+                <a href="{{ url('/company') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Companies</p>
                 </a>

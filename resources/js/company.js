@@ -1,13 +1,8 @@
-<template>
-    <div>display</div>
-</template>
-
-<script>
+// Vue.component('Company', require('./components/Company.vue').default);
 const app = new Vue({
     el:'#app',
     data: {
-        'a' : true,
-        'inputmessage': 'test',
+        'inputmessage': '',
         'try': 'hello',
         'localData':[
             {
@@ -25,6 +20,3 @@ const app = new Vue({
         ]
     }
 });
-
-
-</script>
