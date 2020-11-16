@@ -1,3 +1,25 @@
+
+## Demo Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# build for development
+npm run dev
+
+# build for production 
+npm run production
+
+# Composer install
+composer install
+
+# Run project and access on web browser.
+# url ex. http://127.0.0.1:8000
+php artisan serve
+
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
